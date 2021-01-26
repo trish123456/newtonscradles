@@ -1,2 +1,2 @@
-# newtonscradles
-a program on constraint bodies
+# MatterJSBoilerPlate
+MatterJSBoilerPlate

@@ -1,0 +1,36 @@
+  class ball{
+constructor(body1,body2,offsetX,offsetY){
+
+    this.offsetX=offsetX;
+
+this.offsetY=offsetY;
+
+var options:
+bodyA:body1,
+
+bodyB:body2,
+
+pointB:{X:this.offsetX,Y:this.offsetY};
+}
+
+this.rope=constraint.create(options)
+
+world.add(world,thisrope);
+  }
+  display(){
+var pointA=this.rope.bodyA.position;
+
+var pointB=this.rope.bodyB.position;
+
+strokeweight(2);
+
+var anchor1x=pointA.X;
+
+var anchor1Y=pointB.Y;
+
+var anchor2X=pointB,X+this.offsetX;
+
+var anchor2Y=pointB,Y+this.offsetY;
+
+line(anchor1X,anchor1Y,anchor2X,anchor2Y);
+  }
